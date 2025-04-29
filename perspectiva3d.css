@@ -33,13 +33,13 @@ body{
 .box-rotateZ{
     background: linear-gradient(90deg, #ffed4b, #5ceaf2);
     border-radius: 10%;
-    transform: rotateX(20deg) rotateY(40deg) rotateZ(30deg);
+    transform: rotateX(20deg) rotateY(40deg) rotateZ(50deg);
 }
 
 .box-translateZ{
     background: linear-gradient(90deg, #ff4bff, #4be4ff);
     border-radius: 10%;
-    transform: translateZ(30px) rotateX(20deg)
+    transform: translateZ(50px) rotateX(20deg)
     /* Valores positivos fazem o objeto se aproximar do observador, valores negativos afastam o objeto do observador. */
 }
 .box-translateZ:hover{
