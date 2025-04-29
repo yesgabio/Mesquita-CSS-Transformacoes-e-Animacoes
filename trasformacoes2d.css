@@ -1,0 +1,53 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+    height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.box-translate {
+    background: linear-gradient(90deg, #e93cc9, #203096);
+    border-radius: 50%;
+}
+
+.box-translate:hover {
+    transform: translate(50px, 0);
+}   
+
+.box-rotate {
+    background: linear-gradient(90deg, #d5d589, #b52d31);
+    border-radius: 15%;
+}
+
+.box-rotate:hover {
+    transform: rotate(20deg);
+}
+
+.box-scale {
+    background: linear-gradient(90deg, #9bd589, #ffba4b);
+    border-radius: 30%;
+}
+
+.box-scale:hover {
+    transform: scale(1.5);
+}
+
+.box-skew {
+    background: linear-gradient(90deg,#4bffba, #d589d5);
+    border-radius: 10%;
+}
+
+.box-skew:hover {
+    transform: skew(40deg, 20deg);
+}
